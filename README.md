@@ -15,3 +15,15 @@
 ### 会议总结
 
 <http://my.eoe.cn/eoeshanghai/archive/5044.html>
+
+## 第八届2013.07.21
+
+### 嘉宾分享
+
+- 高聪 《Android 游戏 UI 设计以及优化》  
+- Vincent 4J 《Android UI 优化》
+- Future Xiong 《Android UI Performance》
+
+### 会议总结
+
+撰写中...
