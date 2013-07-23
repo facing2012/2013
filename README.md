@@ -1,7 +1,9 @@
 2013
 ====
 
-[eoe上海同城会] 演讲稿下载之 2013 (按月份归档)
+[eoe上海同城会] 演讲稿下载之 2013 (按月份归档)   
+
+如何下载演讲稿 https://github.com/eoeshanghai/2013/wiki/Downloads    
 
 ## 第七届2013.06.23 [06]
 
@@ -26,4 +28,4 @@
 
 ### 会议总结
 
-撰写中...
+http://my.eoe.cn/eoeshanghai/archive/5855.html
