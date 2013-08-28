@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eoe="http://schemas.android.com/apk/res/com.eoe.myviewdemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_poritrait"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/setting_list_top"
+                eoe:isPoritrait="true"
+                eoe:title="头像" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="名字" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="性别" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="街道" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_identity_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_bottom"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="身份验证" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/set_shadow" />
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_household"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/setting_list_top"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="户籍" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="年龄" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_marriage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="婚姻状况" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="就业状况" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_center"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="个人身份" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <com.eoe.myviewdemo.MySettingView
+                android:id="@+id/set_user_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/setting_list_bottom"
+                eoe:content="未知"
+                eoe:isContent="true"
+                eoe:title="健康状况" >
+            </com.eoe.myviewdemo.MySettingView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/set_shadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dip" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

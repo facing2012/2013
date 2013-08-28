@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 浅灰色 -->
+    <color name="lightgray">#CDCDCD</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- 设置条目 按下下后的颜色 -->
+    <color name="setting_a_blue">#326AB6</color>
+    <!-- 列表字体 标题黑 -->
+    <color name="listtitleblack">#111111</color>
+    <!-- 列表字体 字体黑 -->
+    <color name="listtextblack">#666666</color>
+
+</resources>

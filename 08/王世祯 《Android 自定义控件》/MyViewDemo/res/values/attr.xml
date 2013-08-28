@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="setting_view">
+        <attr name="title" format="string" />
+        <attr name="content" format="string"></attr>
+        <attr name="isContent" format="boolean"></attr>
+        <attr name="isPoritrait" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>
