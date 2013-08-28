@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout_rl_backgroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip" >
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="头像"
+            android:textColor="@color/listtitleblack"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageview_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/set_arrow" />
+
+        <TextView
+            android:id="@+id/textview_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/imageview_arrow"
+            android:text="女"
+            android:textColor="@color/listtextblack"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_portrait"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageview_arrow"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/imageview_image_bg"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/image_bg" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="5dip"
+                android:layout_below="@+id/imageview_image_bg"
+                android:background="@drawable/image_bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
